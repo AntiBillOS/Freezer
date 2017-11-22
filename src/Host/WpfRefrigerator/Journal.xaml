@@ -1,0 +1,51 @@
+﻿<Window x:Class="WpfRefrigerator.Journal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Journal" 
+        Height="300" Width="300" Loaded="Load" WindowStartupLocation="CenterScreen" MaxWidth="550" SizeToContent="WidthAndHeight" MaxHeight="600" ResizeMode="CanMinimize">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="48*"/>
+            <ColumnDefinition Width="173*"/>
+            <ColumnDefinition Width="41*"/>
+            <ColumnDefinition Width="30*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFFFFBFB" Offset="0"/>
+                <GradientStop Color="#FFBDB9B9" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBox x:Name = "JournalInfo" 
+             Margin="8,20,12,10"
+             HorizontalAlignment="Stretch"
+             VerticalAlignment="Stretch"               
+             TextWrapping="Wrap"
+             AcceptsReturn="True"
+             ScrollViewer.VerticalScrollBarVisibility="Auto" Grid.ColumnSpan="4" FontSize="14" MaxWidth="550" MaxHeight="600" IsReadOnly="True" >
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFDF7F7" Offset="0"/>
+                    <GradientStop Color="#FFBBACAC" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top" Margin="0,0,-396,0" Height="17">
+                <MenuItem Header="Save" Click="MenuItem_Click">
+                </MenuItem>
+            </Menu>
+            <TextBox AcceptsReturn="True" RenderTransformOrigin="0.5,0.5" Width="2" Background="{x:Null}" BorderBrush="{x:Null}" >
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleX="-1"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+        </DockPanel>
+    </Grid>
+</Window>

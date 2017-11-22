@@ -1,0 +1,15 @@
+C:\Users\Natasha\Desktop\курсовая\WpfRefrigerator\WpfRefrigerator\bin\Release\WpfRefrigerator.exe.config
+C:\Users\Natasha\Desktop\курсовая\WpfRefrigerator\WpfRefrigerator\bin\Release\WpfRefrigerator.exe
+C:\Users\Natasha\Desktop\курсовая\WpfRefrigerator\WpfRefrigerator\bin\Release\WpfRefrigerator.pdb
+C:\Users\Natasha\Desktop\курсовая\WpfRefrigerator\WpfRefrigerator\obj\Release\WpfRefrigerator.csprojResolveAssemblyReference.cache
+C:\Users\Natasha\Desktop\курсовая\WpfRefrigerator\WpfRefrigerator\obj\Release\Journal.baml
+C:\Users\Natasha\Desktop\курсовая\WpfRefrigerator\WpfRefrigerator\obj\Release\MainWindow.baml
+C:\Users\Natasha\Desktop\курсовая\WpfRefrigerator\WpfRefrigerator\obj\Release\Journal.g.cs
+C:\Users\Natasha\Desktop\курсовая\WpfRefrigerator\WpfRefrigerator\obj\Release\MainWindow.g.cs
+C:\Users\Natasha\Desktop\курсовая\WpfRefrigerator\WpfRefrigerator\obj\Release\App.g.cs
+C:\Users\Natasha\Desktop\курсовая\WpfRefrigerator\WpfRefrigerator\obj\Release\WpfRefrigerator_MarkupCompile.cache
+C:\Users\Natasha\Desktop\курсовая\WpfRefrigerator\WpfRefrigerator\obj\Release\WpfRefrigerator.g.resources
+C:\Users\Natasha\Desktop\курсовая\WpfRefrigerator\WpfRefrigerator\obj\Release\WpfRefrigerator.Properties.Resources.resources
+C:\Users\Natasha\Desktop\курсовая\WpfRefrigerator\WpfRefrigerator\obj\Release\WpfRefrigerator.csproj.GenerateResource.Cache
+C:\Users\Natasha\Desktop\курсовая\WpfRefrigerator\WpfRefrigerator\obj\Release\WpfRefrigerator.exe
+C:\Users\Natasha\Desktop\курсовая\WpfRefrigerator\WpfRefrigerator\obj\Release\WpfRefrigerator.pdb
